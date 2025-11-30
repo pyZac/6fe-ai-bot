@@ -18,7 +18,7 @@ for _, r in df.iterrows():
         vec = [float(x) for x in list(emb)]
 
     records.append({
-        'id': rid,                
+        'id': rid,                # مهم: نخليه نص
         'search_text': st,
         'embedding': vec
     })
