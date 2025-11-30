@@ -1,0 +1,75 @@
+# Sensitive data
+.env
+.env.local
+
+# Knowledge base (contains proprietary/private content)
+data/kb.cleaned.csv
+data/kb.csv
+data/kb_embeddings.parquet
+data/kb_index.json
+
+# Keep only example/sample data
+# data/kb_example.csv  <- This one is safe to keep
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/# Sensitive data
+.env
+.env.local
+
+# Knowledge base (contains proprietary/private content)
+data/kb.cleaned.csv
+data/kb.csv
+data/kb_embeddings.parquet
+data/kb_index.json
+
+# Keep only example/sample data
+# data/kb_example_cleaned.csv  <- This one is safe to keep
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
